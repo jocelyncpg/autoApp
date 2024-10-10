@@ -1,0 +1,7 @@
+{
+  "name": "autoApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
