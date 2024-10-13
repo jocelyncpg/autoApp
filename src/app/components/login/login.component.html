@@ -1,0 +1,17 @@
+<form (ngSubmit)="login()">
+  <ion-item>
+    <ion-label position="floating">email</ion-label>
+    <!-- Agrega [(ngModel)]="email" al input del correo -->
+    <ion-input type="email" name="email" placeholder="email" [(ngModel)]="email" required></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">password</ion-label>
+    <ion-input type="password" name="password" placeholder="password" [(ngModel)]="password" required></ion-input>
+  </ion-item>
+  <br>
+  <ion-button type="submit" expand="full" color="success">Loguear</ion-button>
+</form>
+<br><br>
+
+<ion-button (click)="register()" expand="full" color="danger">Registrar</ion-button>
